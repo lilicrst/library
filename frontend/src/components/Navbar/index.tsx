@@ -1,5 +1,5 @@
 import { ReactComponent as GithubIcon } from "assets/img/github.svg";
-import './styles.css';
+import "./styles.css";
 
 function Navbar() {
   return (
@@ -7,6 +7,7 @@ function Navbar() {
       <nav className="container">
         <div className="urlibrary-nav-content">
           <h1>UR Library</h1>
+          <input type="search" className="input" id="search" />
           <a
             href="https://github.com/lilicrst/library"
             target="_blank"

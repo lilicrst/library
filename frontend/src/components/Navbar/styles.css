@@ -18,6 +18,20 @@ header {
     font-weight: 700;
 }
 
+.urlibrary-nav-content input {
+    width: 500px;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    background-color: white;
+    background-position: 10px 4px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS63SKA-wL_NPMScjBr5Tw3r7d4XBhwstmQuA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 3.5%;
+    padding-left: 40px;
+    outline: none;
+    font-weight: 100;
+}
+
 .urlibrary-contact-container {
     display: flex;
     align-items: center;

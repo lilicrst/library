@@ -1,0 +1,79 @@
+.urlibrary-book-card-top-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px 20px 5px;
+    border-radius: 8px 8px 0 0;
+}
+
+.urlibrary-book-card-image {
+    align-items: center;
+    margin-bottom: 10px;
+    min-height: 40px;
+    width: 70%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.urlibrary-card-bottom-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px 0 5px;
+    border-radius: 0 0 8px 8px;
+}
+
+.urlibrary-card-bottom-container h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    min-height: 40px;
+    display: flex;
+}
+
+.urlibrary-card-bottom-container h4 {
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    min-height: 10px;
+    font-style: italic;
+}
+
+.urlibrary-card-bottom-information h3{
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.urlibrary-card-bottom-container-plus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.urlibrary-card-bottom-container-plus h3{
+    color: #1f1f1f;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    min-height: 10px;
+    display: flex;
+}
+
+.urlibrary-card-bottom-container-plus h4{
+    color: var(--color-primary);
+    font-size: 12px;
+    font-weight: 700;
+    min-height: 40px;
+}
