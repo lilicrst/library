@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="container">
         <div className="urlibrary-nav-content">
           <h1>UR Library</h1>
-          <input type="search" className="input" id="search" />
+          
           <a
             href="https://github.com/lilicrst/library"
             target="_blank"

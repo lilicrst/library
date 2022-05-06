@@ -37,7 +37,7 @@ function Listing() {
   return (
     <>
       <Pagination page ={page} onChange={handlePageChange} />
-
+      <input type="search" className="input" id="search" />
       <div className="container">
         <div className="row">
           {page.content.map(book => (
